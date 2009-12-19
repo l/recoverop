@@ -8,8 +8,8 @@ sub event_server_quit {
 Irssi::signal_add('server quit', 'event_server_quit');
 
 sub is_debug {
-#	return 0;
-	return 1;
+	return 0;
+#	return 1;
 }
 
 sub dprint {
